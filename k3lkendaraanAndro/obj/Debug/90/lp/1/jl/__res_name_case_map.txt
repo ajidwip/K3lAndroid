@@ -1,0 +1,6 @@
+values/strings.xml;values/strings.xml
+layout/dialog_recyclerview_search.axml;layout/dialog_recyclerview_search.xml
+layout/item_select_single.axml;layout/item_select_single.xml
+values-es/strings.xml;values-es/strings.xml
+values-pt/strings.xml;values-pt/strings.xml
+layout/item_select_multiple.axml;layout/item_select_multiple.xml

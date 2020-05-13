@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://192.168.6.232:93/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" />
+  <xs:element name="GetPKCompany">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPKCompanyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetPKCompanyResult" nillable="true" type="q1:IPKCompany" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertIPK">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="NoSuratTugas" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tujuan" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Company" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="supir" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kenek" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="km" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kmout" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="waktupakai" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="waktukembali" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="createdby" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="KendaraanId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="keterangan" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertIPKResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPKSuratTugas">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPKSuratTugasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetIPKSuratTugasResult" nillable="true" type="q2:IPKSuratTugas" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPKnopol">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPKnopolResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetIPKnopolResult" nillable="true" type="q3:IPKNOPOL" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPKSupir">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetIPKSupirResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetIPKSupirResult" nillable="true" type="q4:IPKSupir" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sendmailkendaraan">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sendmailkendaraanResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPorunningnumber">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPorunningnumberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetPorunningnumberResult" nillable="true" type="q5:porunningnumber" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPorunningkirimnumber">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPorunningkirimnumberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetPorunningkirimnumberResult" nillable="true" type="q6:porunningnumber" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPorunningnumberkdrmasukgudang">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPorunningnumberkdrmasukgudangResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetPorunningnumberkdrmasukgudangResult" nillable="true" type="q7:porunningnumberekspedisi" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRuang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="kd_ruang" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRuangResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetRuangResult" nillable="true" type="q8:Ruang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteopnamedetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="kd_ruang" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kd_barang" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteopnamedetailResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBarang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="kd_ruang" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetBarangResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetBarangResult" nillable="true" type="q9:barang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="value" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDataResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertStockOpname">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="kdRuang" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="totalfisik" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="selisihitem" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertStockOpnameResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertStockOpnamedtl">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="kdRuang" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="kdbarang" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertStockOpnamedtlResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDataUsingDataContract">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="composite" nillable="true" type="q10:CompositeType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDataUsingDataContractResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetDataUsingDataContractResult" nillable="true" type="q11:CompositeType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPernyataan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dept" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="trxid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPernyataanResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetPernyataanResult" nillable="true" type="q12:pernyataan" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPernyataanKirim">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dept" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="trxid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPernyataanKirimResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetPernyataanKirimResult" nillable="true" type="q13:pernyataankirim" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPernyataankdrmasukgudang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dept" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="trxid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPernyataankdrmasukgudangResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetPernyataankdrmasukgudangResult" nillable="true" type="q14:pernyataankdrmasukgudang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3lHeader">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VendorCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoKendaraan" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SJ_NO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoPo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NamaSupir" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="createdbyscr" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="divisi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="trxid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img2" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img3" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img4" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img5" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img6" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img7" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img8" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3lHeaderResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3lKirimHeader">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VendorCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoKendaraan" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SJ_NO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NmProduk" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Tujuan" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoPo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NamaSupir" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="createdbyscr" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="divisi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="trxid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img2" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img3" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img4" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img5" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img6" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img7" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img8" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3lKirimHeaderResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3lHeaderMasukGudang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VendorCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoKendaraan" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SJ_NO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoPo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="divisi" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="trxid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nocontainer" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="catatan" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img2" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img3" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img4" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img5" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img6" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img7" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="img8" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3lHeaderMasukGudangResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3ldetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VendorCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoKendaraan" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SJ_NO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoPo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NamaSupir" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="No" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nodetail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="trxid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3ldetailResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3lkirimdetail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VendorCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoKendaraan" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SJ_NO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoPo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NamaSupir" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="No" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nodetail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="trxid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3lkirimdetailResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3ldetailMasukGudang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="VendorCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoKendaraan" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="SJ_NO" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoPo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="No" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nodetail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="trxid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Insertk3ldetailMasukGudangResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPo">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetPoResult" nillable="true" type="q15:PO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetExpedisi">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetExpedisiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetExpedisiResult" nillable="true" type="q16:EXPEDISI" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cekuser">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cekuserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="cekuserResult" nillable="true" type="q17:cek" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNokendaraan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="date" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNokendaraanResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" minOccurs="0" name="GetNokendaraanResult" nillable="true" type="q18:nokendaraan" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

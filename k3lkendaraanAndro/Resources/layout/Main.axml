@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+    <include
+        layout="@layout/toolbar" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <RadioButton
+                    android:id="@+id/rdnew"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="New" />
+                <RadioButton
+                    android:id="@+id/rdedit"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Edit" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:background="#912FF9"
+        android:layout_marginTop="-30dp"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="Save"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="right"
+        android:textColor="#fff"
+        android:id="@+id/btnsubmit" />
+    <HorizontalScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <ImageView
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:src="@drawable/camera"
+                android:id="@+id/buktifoto" />
+            <ImageView
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:src="@drawable/camera"
+                android:id="@+id/buktifoto2" />
+            <ImageView
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:src="@drawable/camera"
+                android:id="@+id/buktifoto3" />
+            <ImageView
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:src="@drawable/camera"
+                android:id="@+id/buktifoto4" />
+            <ImageView
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:src="@drawable/camera"
+                android:id="@+id/buktifoto5" />
+            <ImageView
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:src="@drawable/camera"
+                android:id="@+id/buktifoto6" />
+            <ImageView
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:src="@drawable/camera"
+                android:id="@+id/buktifoto7" />
+            <ImageView
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="60dp"
+                android:src="@drawable/camera"
+                android:id="@+id/buktifoto8" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:id="@+id/notrans"
+            android:layout_marginLeft="10dp"
+            android:text="No. Transaksi" />
+        <SearchableSpinner.Droid.Controls.SpinnerSearch
+            android:id="@+id/spporunningnumber"
+            android:layout_marginLeft="13dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="No. PO" />
+        <SearchableSpinner.Droid.Controls.SpinnerSearch
+            android:id="@+id/spNoPo"
+            android:layout_marginLeft="13dp"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:id="@+id/btnsyncpo"
+            android:background="@drawable/sync" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="No. Polisi" />
+        <SearchableSpinner.Droid.Controls.SpinnerSearch
+            android:id="@+id/spNoKendaraan"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:id="@+id/btnsynckendaraan"
+            android:background="@drawable/sync" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:hint="Nama Supplier/Ekspedisi"
+            android:textSize="15dp"
+            android:id="@+id/txtNamaSupplier1" />
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Supir"
+            android:inputType="textCapSentences"
+            android:textSize="15dp"
+            android:layout_below="@id/txtNamaSupplier1"
+            android:id="@+id/txtNamaSupir" />
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SJ No"
+            android:inputType="textCapSentences"
+            android:textSize="15dp"
+            android:layout_below="@id/txtNamaSupir"
+            android:id="@+id/txtSJNo" />
+    </RelativeLayout>
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+</LinearLayout>

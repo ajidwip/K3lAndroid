@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="MyTheme" parent="MyTheme.Base"></style>
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">#41d9f4</item>
+    <item name="android:statusBarColor">#912FF9</item>
+    <item name="colorControlNormal">#c5c5c5</item>
+    <item name="colorControlActivated">#912FF9</item>
+    <item name="colorControlHighlight">#912FF9</item>
+  </style>
+</resources>

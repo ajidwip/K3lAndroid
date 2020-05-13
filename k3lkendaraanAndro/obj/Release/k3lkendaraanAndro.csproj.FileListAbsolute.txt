@@ -1,0 +1,125 @@
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\k3lkendaraanAndro.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\k3lkendaraanAndro.pdb
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\k3lkendaraanAndro.k3lkendaraanAndro.apk
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\k3lkendaraanAndro.k3lkendaraanAndro-Signed.apk
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Glide.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\SearchableSpinner.Droid.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Arch.Core.Common.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Arch.Lifecycle.Common.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Annotations.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Compat.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Core.UI.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Core.Utils.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Design.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Fragment.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Media.Compat.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Transition.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.v4.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.v7.RecyclerView.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Vector.Drawable.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\k3lkendaraanAndro.csproj.CoreCompileInputs.cache
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\k3lkendaraanAndro.dll
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\k3lkendaraanAndro.pdb
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\android\bin\k3lkendaraanAndro.k3lkendaraanAndro.apk
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\layout\login.xml
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\layout\k3lkendaraanmasukbarang.xml
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\layout\home.xml
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\layout\main.xml
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\values\strings.xml
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\truck.png
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\values\style.xml
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\login.png
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\camera.png
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\shapegradient.xml
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\shaperadius.xml
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\shaperadius2.xml
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\ilp.jpg
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\file_path.xml
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\sync.png
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\R.cs.flag
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\uploadflags.txt
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\k3lkendaraanAndro.dll.mdb
+D:\ProjectTes\backup project\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\android\assets\k3lkendaraanAndro.dll.mdb
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\k3lkendaraanAndro.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\k3lkendaraanAndro.pdb
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\k3lkendaraanAndro.k3lkendaraanAndro.apk
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\k3lkendaraanAndro.k3lkendaraanAndro-Signed.apk
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Glide.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\SearchableSpinner.Droid.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Arch.Core.Common.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Arch.Lifecycle.Common.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Arch.Lifecycle.Runtime.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Annotations.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Compat.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Core.UI.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Core.Utils.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Design.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Fragment.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Media.Compat.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Transition.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.v4.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.v7.AppCompat.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.v7.RecyclerView.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\Xamarin.Android.Support.Vector.Drawable.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\k3lkendaraanAndro.csproj.CoreCompileInputs.cache
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\k3lkendaraanAndro.dll
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\k3lkendaraanAndro.pdb
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\android\bin\k3lkendaraanAndro.k3lkendaraanAndro.apk
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\layout\login.xml
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\layout\k3lkendaraanmasukbarang.xml
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\layout\home.xml
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\layout\toolbar.xml
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\layout\main.xml
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\values\strings.xml
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\truck.png
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\values\style.xml
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\login.png
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\camera.png
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\shapegradient.xml
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\shaperadius.xml
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\shaperadius2.xml
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\ilp.jpg
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\file_path.xml
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\res\drawable\sync.png
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\R.cs.flag
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\uploadflags.txt
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\k3lkendaraanAndro.dll.mdb
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\obj\Release\android\assets\k3lkendaraanAndro.dll.mdb
+D:\ProjectTes\backup project\k3l\k3lkendaraanAndro\k3lkendaraanAndro\bin\Release\k3lkendaraanAndro.dll
+bin\Release\Mono.Android.pdb
+bin\Release\Mono.Android.Export.pdb
+bin\Release\mscorlib.pdb
+bin\Release\System.Core.pdb
+bin\Release\System.Data.pdb
+bin\Release\System.pdb
+bin\Release\System.Web.Services.pdb
+bin\Release\System.Xml.pdb
+bin\Release\System.Net.Http.pdb
+bin\Release\System.Runtime.Serialization.pdb
+bin\Release\System.ServiceModel.Internals.pdb
+bin\Release\System.Numerics.pdb
+bin\Release\System.Transactions.pdb
+bin\Release\Mono.Data.Tds.pdb
+bin\Release\Mono.Security.pdb
+bin\Release\System.ComponentModel.Composition.pdb
+obj\Release\linksrc\k3lkendaraanAndro.dll.mdb
+obj\Release\linksrc\Mono.Android.pdb
+obj\Release\linksrc\Mono.Android.Export.pdb
+obj\Release\linksrc\mscorlib.pdb
+obj\Release\linksrc\System.Core.pdb
+obj\Release\linksrc\System.Data.pdb
+obj\Release\linksrc\System.pdb
+obj\Release\linksrc\System.Web.Services.pdb
+obj\Release\linksrc\System.Xml.pdb
+obj\Release\linksrc\System.Net.Http.pdb
+obj\Release\linksrc\System.Runtime.Serialization.pdb
+obj\Release\linksrc\System.ServiceModel.Internals.pdb
+obj\Release\linksrc\System.Numerics.pdb
+obj\Release\linksrc\System.Transactions.pdb
+obj\Release\linksrc\Mono.Data.Tds.pdb
+obj\Release\linksrc\Mono.Security.pdb
+obj\Release\linksrc\System.ComponentModel.Composition.pdb

@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://192.168.6.232:93/Service1.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://192.168.6.232:93/Service1.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://192.168.6.232:93/Service1.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfServiceGAAsset" />
+      <xsd:import schemaLocation="http://192.168.6.232:93/Service1.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetPKCompany_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPKCompany" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPKCompany_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPKCompanyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertIPK_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIPK" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertIPK_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIPKResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetIPKSuratTugas_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPKSuratTugas" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetIPKSuratTugas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPKSuratTugasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetIPKnopol_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPKnopol" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetIPKnopol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPKnopolResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetIPKSupir_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPKSupir" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetIPKSupir_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPKSupirResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_sendmailkendaraan_InputMessage">
+    <wsdl:part name="parameters" element="tns:sendmailkendaraan" />
+  </wsdl:message>
+  <wsdl:message name="IService1_sendmailkendaraan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:sendmailkendaraanResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPorunningnumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPorunningnumber" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPorunningnumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPorunningnumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPorunningkirimnumber_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPorunningkirimnumber" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPorunningkirimnumber_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPorunningkirimnumberResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPorunningnumberkdrmasukgudang_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPorunningnumberkdrmasukgudang" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPorunningnumberkdrmasukgudang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPorunningnumberkdrmasukgudangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRuang_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRuang" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRuang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRuangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_deleteopnamedetail_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteopnamedetail" />
+  </wsdl:message>
+  <wsdl:message name="IService1_deleteopnamedetail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteopnamedetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetBarang_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBarang" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetBarang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBarangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertStockOpname_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertStockOpname" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertStockOpname_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertStockOpnameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertStockOpnamedtl_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertStockOpnamedtl" />
+  </wsdl:message>
+  <wsdl:message name="IService1_InsertStockOpnamedtl_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertStockOpnamedtlResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPernyataan_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPernyataan" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPernyataan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPernyataanResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPernyataanKirim_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPernyataanKirim" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPernyataanKirim_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPernyataanKirimResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPernyataankdrmasukgudang_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPernyataankdrmasukgudang" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPernyataankdrmasukgudang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPernyataankdrmasukgudangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3lHeader_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3lHeader" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3lHeader_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3lHeaderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3lKirimHeader_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3lKirimHeader" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3lKirimHeader_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3lKirimHeaderResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3lHeaderMasukGudang_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3lHeaderMasukGudang" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3lHeaderMasukGudang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3lHeaderMasukGudangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3ldetail_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3ldetail" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3ldetail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3ldetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3lkirimdetail_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3lkirimdetail" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3lkirimdetail_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3lkirimdetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3ldetailMasukGudang_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3ldetailMasukGudang" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Insertk3ldetailMasukGudang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Insertk3ldetailMasukGudangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPo" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetPo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetExpedisi_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetExpedisi" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetExpedisi_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetExpedisiResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_cekuser_InputMessage">
+    <wsdl:part name="parameters" element="tns:cekuser" />
+  </wsdl:message>
+  <wsdl:message name="IService1_cekuser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:cekuserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNokendaraan_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNokendaraan" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetNokendaraan_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNokendaraanResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetPKCompany">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPKCompany" message="tns:IService1_GetPKCompany_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPKCompanyResponse" message="tns:IService1_GetPKCompany_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIPK">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertIPK" message="tns:IService1_InsertIPK_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertIPKResponse" message="tns:IService1_InsertIPK_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIPKSuratTugas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetIPKSuratTugas" message="tns:IService1_GetIPKSuratTugas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetIPKSuratTugasResponse" message="tns:IService1_GetIPKSuratTugas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIPKnopol">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetIPKnopol" message="tns:IService1_GetIPKnopol_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetIPKnopolResponse" message="tns:IService1_GetIPKnopol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIPKSupir">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetIPKSupir" message="tns:IService1_GetIPKSupir_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetIPKSupirResponse" message="tns:IService1_GetIPKSupir_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="sendmailkendaraan">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/sendmailkendaraan" message="tns:IService1_sendmailkendaraan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/sendmailkendaraanResponse" message="tns:IService1_sendmailkendaraan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPorunningnumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPorunningnumber" message="tns:IService1_GetPorunningnumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPorunningnumberResponse" message="tns:IService1_GetPorunningnumber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPorunningkirimnumber">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPorunningkirimnumber" message="tns:IService1_GetPorunningkirimnumber_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPorunningkirimnumberResponse" message="tns:IService1_GetPorunningkirimnumber_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPorunningnumberkdrmasukgudang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPorunningnumberkdrmasukgudang" message="tns:IService1_GetPorunningnumberkdrmasukgudang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPorunningnumberkdrmasukgudangResponse" message="tns:IService1_GetPorunningnumberkdrmasukgudang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRuang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetRuang" message="tns:IService1_GetRuang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetRuangResponse" message="tns:IService1_GetRuang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteopnamedetail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/deleteopnamedetail" message="tns:IService1_deleteopnamedetail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/deleteopnamedetailResponse" message="tns:IService1_deleteopnamedetail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBarang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetBarang" message="tns:IService1_GetBarang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetBarangResponse" message="tns:IService1_GetBarang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertStockOpname">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertStockOpname" message="tns:IService1_InsertStockOpname_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertStockOpnameResponse" message="tns:IService1_InsertStockOpname_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertStockOpnamedtl">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/InsertStockOpnamedtl" message="tns:IService1_InsertStockOpnamedtl_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/InsertStockOpnamedtlResponse" message="tns:IService1_InsertStockOpnamedtl_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPernyataan">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPernyataan" message="tns:IService1_GetPernyataan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPernyataanResponse" message="tns:IService1_GetPernyataan_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPernyataanKirim">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPernyataanKirim" message="tns:IService1_GetPernyataanKirim_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPernyataanKirimResponse" message="tns:IService1_GetPernyataanKirim_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPernyataankdrmasukgudang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPernyataankdrmasukgudang" message="tns:IService1_GetPernyataankdrmasukgudang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPernyataankdrmasukgudangResponse" message="tns:IService1_GetPernyataankdrmasukgudang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3lHeader">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insertk3lHeader" message="tns:IService1_Insertk3lHeader_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Insertk3lHeaderResponse" message="tns:IService1_Insertk3lHeader_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3lKirimHeader">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insertk3lKirimHeader" message="tns:IService1_Insertk3lKirimHeader_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Insertk3lKirimHeaderResponse" message="tns:IService1_Insertk3lKirimHeader_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3lHeaderMasukGudang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insertk3lHeaderMasukGudang" message="tns:IService1_Insertk3lHeaderMasukGudang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Insertk3lHeaderMasukGudangResponse" message="tns:IService1_Insertk3lHeaderMasukGudang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3ldetail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insertk3ldetail" message="tns:IService1_Insertk3ldetail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Insertk3ldetailResponse" message="tns:IService1_Insertk3ldetail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3lkirimdetail">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insertk3lkirimdetail" message="tns:IService1_Insertk3lkirimdetail_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Insertk3lkirimdetailResponse" message="tns:IService1_Insertk3lkirimdetail_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3ldetailMasukGudang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Insertk3ldetailMasukGudang" message="tns:IService1_Insertk3ldetailMasukGudang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Insertk3ldetailMasukGudangResponse" message="tns:IService1_Insertk3ldetailMasukGudang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetPo" message="tns:IService1_GetPo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetPoResponse" message="tns:IService1_GetPo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExpedisi">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetExpedisi" message="tns:IService1_GetExpedisi_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetExpedisiResponse" message="tns:IService1_GetExpedisi_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="cekuser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/cekuser" message="tns:IService1_cekuser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/cekuserResponse" message="tns:IService1_cekuser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNokendaraan">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetNokendaraan" message="tns:IService1_GetNokendaraan_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetNokendaraanResponse" message="tns:IService1_GetNokendaraan_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPKCompany">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPKCompany" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIPK">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertIPK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIPKSuratTugas">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetIPKSuratTugas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIPKnopol">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetIPKnopol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIPKSupir">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetIPKSupir" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sendmailkendaraan">
+      <soap:operation soapAction="http://tempuri.org/IService1/sendmailkendaraan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPorunningnumber">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPorunningnumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPorunningkirimnumber">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPorunningkirimnumber" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPorunningnumberkdrmasukgudang">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPorunningnumberkdrmasukgudang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRuang">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetRuang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteopnamedetail">
+      <soap:operation soapAction="http://tempuri.org/IService1/deleteopnamedetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBarang">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetBarang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertStockOpname">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertStockOpname" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertStockOpnamedtl">
+      <soap:operation soapAction="http://tempuri.org/IService1/InsertStockOpnamedtl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPernyataan">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPernyataan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPernyataanKirim">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPernyataanKirim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPernyataankdrmasukgudang">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPernyataankdrmasukgudang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3lHeader">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insertk3lHeader" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3lKirimHeader">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insertk3lKirimHeader" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3lHeaderMasukGudang">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insertk3lHeaderMasukGudang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3ldetail">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insertk3ldetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3lkirimdetail">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insertk3lkirimdetail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insertk3ldetailMasukGudang">
+      <soap:operation soapAction="http://tempuri.org/IService1/Insertk3ldetailMasukGudang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPo">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetPo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExpedisi">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetExpedisi" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cekuser">
+      <soap:operation soapAction="http://tempuri.org/IService1/cekuser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNokendaraan">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetNokendaraan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://192.168.6.232:93/Service1.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shapegradient">
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_height="350dp"
+        android:layout_width="300dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/shaperadius2">
+        <ImageView
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/login"
+            android:layout_marginLeft="0dp" />
+        <EditText
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:hint="UserId"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:textColorHint="#000"
+            android:layout_gravity="center"
+            android:backgroundTint="#D3D3D3"
+            android:id="@+id/txtUserId" />
+        <EditText
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:singleLine="true"
+            android:layout_gravity="center"
+            android:maxLines="1"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorHint="#000"
+            android:backgroundTint="#D3D3D3"
+            android:id="@+id/txtpassword" />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:text="login"
+        android:textColor="#fff"
+        android:background="@drawable/shaperadius"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlogin" />
+</LinearLayout>

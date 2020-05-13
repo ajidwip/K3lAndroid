@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#912FF9" />
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ilp"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="100dp" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:rowCount="2"
+        android:columnCount="2">
+        <Button
+            android:layout_marginTop="50dp"
+            android:text="Kondisi Kendaraan"
+            android:layout_marginLeft="50dp"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:textColor="#fff"
+
+            android:background="#912FF9"
+            android:id="@+id/MasukKendaraanGudang" />
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="-50dp"
+            android:layout_height="120dp"
+            android:background="#912FF9"
+            android:layout_width="120dp"
+			android:textColor="#fff"
+            android:text="Penerimaan Barang"
+            android:id="@+id/MasukKendaraan" />
+		<Button
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="120dp"
+            android:layout_height="130dp"
+            android:background="#912FF9"
+            android:layout_width="120dp"
+			android:textColor="#fff"
+            android:text="Pengeluaran Barang"
+            android:id="@+id/KeluarKendaraan" />
+    </GridLayout>
+</LinearLayout>
